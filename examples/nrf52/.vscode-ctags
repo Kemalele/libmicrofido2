@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/user/workspace/projects/token/zephyr/libmicrofido/libmicrofido2/examples/nrf52/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+FIDO_STATE_APPLET_SELECTION	stateless_rp/stateless_rp_nfc_simulator.c	/^    FIDO_STATE_APPLET_SELECTION,$/;"	e	enum:fido_state	file:
+FIDO_STATE_GET_ASSERTION	stateless_rp/stateless_rp_nfc_simulator.c	/^    FIDO_STATE_GET_ASSERTION,$/;"	e	enum:fido_state	file:
+FIDO_STATE_GET_INFO	stateless_rp/stateless_rp_nfc_simulator.c	/^    FIDO_STATE_GET_INFO,$/;"	e	enum:fido_state	file:
+FIDO_STATE_GET_LARGE_BLOB	stateless_rp/stateless_rp_nfc_simulator.c	/^    FIDO_STATE_GET_LARGE_BLOB,$/;"	e	enum:fido_state	file:
+FIDO_STATE_UNINIT	stateless_rp/stateless_rp_nfc_simulator.c	/^    FIDO_STATE_UNINIT = 0,$/;"	e	enum:fido_state	file:
+NFC_GET_RESPONSE	stateless_rp/stateless_rp_nfc_simulator.c	/^#define NFC_GET_RESPONSE /;"	d	file:
+aes_gcm_decrypt	hw_crypto/hw_crypto.c	/^static int aes_gcm_decrypt($/;"	f	typeref:typename:int	file:
+aes_gcm_encrypt	hw_crypto/hw_crypto.c	/^static int aes_gcm_encrypt($/;"	f	typeref:typename:int	file:
+clock_cycle_start	clock/clock_cycles.c	/^timing_t clock_cycle_start;$/;"	v	typeref:typename:timing_t
+clock_cyles_to_ns	clock/clock_cycles.h	/^static inline uint64_t clock_cyles_to_ns(uint64_t cycles) {$/;"	f	typeref:typename:uint64_t
+clock_init	clock/clock_cycles.h	/^inline void clock_init() {$/;"	f	typeref:typename:void
+clock_start_counting	clock/clock_cycles.h	/^static inline void clock_start_counting() {$/;"	f	typeref:typename:void
+clock_stop_counting	clock/clock_cycles.h	/^static inline uint64_t clock_stop_counting() {$/;"	f	typeref:typename:uint64_t
+ed25519_sign	hw_crypto/hw_crypto.c	/^static void ed25519_sign($/;"	f	typeref:typename:void	file:
+ed25519_verify	hw_crypto/hw_crypto.c	/^static int ed25519_verify($/;"	f	typeref:typename:int	file:
+fido_state	stateless_rp/stateless_rp_nfc_simulator.c	/^enum fido_state {$/;"	g	file:
+init_hw_crypto	hw_crypto/hw_crypto.c	/^int init_hw_crypto() {$/;"	f	typeref:typename:int
+log	stateless_rp/stateless_rp_nfc_simulator.c	/^        #define log /;"	d	file:
+log	stateless_rp/stateless_rp_nfc_simulator.c	/^        #define log(/;"	d	file:
+main	src/main.c	/^int main(void) {$/;"	f	typeref:typename:int
+mock_close	stateless_rp/stateless_rp_nfc_simulator.c	/^static void mock_close(void *handle) {$/;"	f	typeref:typename:void	file:
+mock_nfc_io	stateless_rp/stateless_rp_nfc_simulator.c	/^static const fido_dev_io_t mock_nfc_io = {$/;"	v	typeref:typename:const fido_dev_io_t	file:
+mock_open	stateless_rp/stateless_rp_nfc_simulator.c	/^static void *mock_open() {$/;"	f	typeref:typename:void *	file:
+mock_read	stateless_rp/stateless_rp_nfc_simulator.c	/^static int mock_read(void *handle, unsigned char *buf, const size_t len) {$/;"	f	typeref:typename:int	file:
+mock_write	stateless_rp/stateless_rp_nfc_simulator.c	/^static int mock_write(void *handle, const unsigned char *buf, const size_t len) {$/;"	f	typeref:typename:int	file:
+prepare_stateless_rp_nfc_simulator_device	stateless_rp/stateless_rp_nfc_simulator.c	/^int prepare_stateless_rp_nfc_simulator_device(fido_dev_t *dev) {$/;"	f	typeref:typename:int
+read_offset	stateless_rp/stateless_rp_nfc_simulator.c	/^static size_t read_offset = 0;$/;"	v	typeref:typename:size_t	file:
+sha256	hw_crypto/hw_crypto.c	/^static void sha256(const uint8_t *data, size_t data_len, uint8_t *hash) {$/;"	f	typeref:typename:void	file:
+sha512	hw_crypto/hw_crypto.c	/^static void sha512(const uint8_t *data, size_t data_len, uint8_t *hash) {$/;"	f	typeref:typename:void	file:
+sim_state	stateless_rp/stateless_rp_nfc_simulator.c	/^static enum fido_state sim_state = FIDO_STATE_UNINIT;$/;"	v	typeref:enum:fido_state	file:
+stateless_assert	stateless_rp/stateless_rp.c	/^int stateless_assert(fido_dev_t *dev, const char *rp_id, const uint8_t *updater_public_key) {$/;"	f	typeref:typename:int
